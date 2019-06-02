@@ -28,6 +28,7 @@ class CashRegister
     @total -= @last_transaction
   end
 end
+<<<<<<< HEAD
 
 # another option for #void_last_traction (this method keeps track of the previous transaction after last transaction is voided)
 # add :transactions to attr_accessor
@@ -43,3 +44,5 @@ end
 #   def void_last_transaction
 #     @total -= @transactions.pop
 #   end
+=======
+>>>>>>> aed51f8b7cdf4519b3fbe6e35bbd179cf226cef8
